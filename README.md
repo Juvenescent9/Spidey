@@ -7,19 +7,19 @@ When designing, I took inspiration from the Mercury k1 keyboard made by Gravasta
 
 # CAD design
 
-The design was fully created in Fusion 360. The case is held by 4 m3 s6mm screws, and has 3 plates for the frame. The limbs are made with a ball and socket joint and can allow the macropad to be tilted or even lifted!  _**Although in the CAD file, the limbs are displayed as passing through the framework, when actually built it will be held by printing the limbs individually, and then securing them on accordingly with a 3d pen or hotglue. This is extrememely important for assembly**_ All essential parts of the casing can be printed without supports, except the legs which are not needed for functional reasons and are optional.
+The design was fully created in Fusion 360. The case is held by 4 M3 16mm screws, and has 3 plates for the frame. The limbs are made with a ball and socket joint and can allow the macropad to be tilted or even lifted!  _**Although in the CAD file, the limbs are displayed as passing through the framework, when actually built it will be held by printing the limbs individually, and then securing them on accordingly with a 3d pen or hotglue. This is extrememely important for assembly**_ All essential parts of the casing can be printed without supports, except the legs which are not needed for functional reasons and are optional.
 
 Insert image later
 
 Hackpad with and without spider limbs
 
 # PCB
-The pcb was made in Kicad.
+The PCB was made in Kicad. I used a traditional 6 pin system.
 
 Insert image here
 
 # Firmware
-The hackpad uses KMK firmware. It was my first time using Python apart from FLL, but it proved to be simple
+The hackpad uses KMK firmware.
 
 # BOM
 Solder, PCB, motivation, and caffeine not included, but required
@@ -36,4 +36,5 @@ Solder, PCB, motivation, and caffeine not included, but required
  - Middle part of case
  - Bottom of case
  - 6-8 spider limbs (Optional, number depends on preference)
+ - 3d pen (Optional, for securing limbs)
  - Hot glue (Optional, for grip)
