@@ -9,11 +9,22 @@ keyboard = KMKKeyboard()
 
 keyboard.diode_orientation = DiodeOrientation.COL2ROW
 
+# Add the macro extension
+macros = Macros()
+keyboard.modules.append(macros)
+
 
 # COLUMN pins (wired to cathode side of diodes)
 keyboard.col_pins = (board.GP3, board.GP4, board.GP2)
 
 keyboard.row_pins = (board.GP26, board.GP27, board.GP28)
+
+# Tell kmk we are not using a key matrix
+keyboard.matrix = KeysScanner(
+    pins=PINS,
+    value_when_pressed=False,
+)
+
 
 
 
