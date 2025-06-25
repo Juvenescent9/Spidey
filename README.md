@@ -1,7 +1,7 @@
 # Spidey
 A 3x3 macropad designed to resemble a spider
 
-Insert image of it here later. 
+![screenshot]([Images/21.27.37.png](https://github.com/Juvenescent9/Spidey/blob/main/Images/Screenshot%202025-06-24%20at%2021.27.37.png)) 
 
 When designing, I took inspiration from the Mercury k1 keyboard made by Gravastar. It is a 9 key macropad, using the XIAO RP2040 microcontroller and powered with KMK firmware. It has 6 articulated limbs that can be adjusted to change the position of the macropad, but mostly because of design preferences. 
 
